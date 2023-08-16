@@ -4,6 +4,10 @@ import java.util.Scanner;
 
 public class Exercicio08 {
 
+    /* Faça um programa que pergunte o preço de três produtos e diga
+qual produto você deve comprar, sabendo que a decisão é
+sempre o mais barato.*/
+
     public static void main(String[] args) {
 
         Scanner in = new Scanner(System.in);

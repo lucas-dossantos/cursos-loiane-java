@@ -4,6 +4,9 @@ import java.util.Scanner;
 
 public class Exercicio18 {
 
+    /* Escreva um programa que solicite uma data no formato mm/dd/aaaa
+e determina se é uma data válida.*/
+
     public static void main(String[] main){
 
         Scanner input = new Scanner(System.in);

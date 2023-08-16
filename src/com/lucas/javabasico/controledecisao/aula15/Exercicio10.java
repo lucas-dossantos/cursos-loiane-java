@@ -4,8 +4,12 @@ import java.util.Scanner;
 
 public class Exercicio10 {
 
-    public static void main(String[] args) {
+    /* Faça um Programa que pergunte em que turno você estuda. Perguntar a
+digite M-Manhã ou V-Noite ou N-Noite. Imprimir a mensagem
+"Bom Dia!", "Boa Tarde!" ou boa noite!" ou "Inválido
+Valor!", conforme o caso.*/
 
+    public static void main(String[] args) {
 
         Scanner in = new Scanner(System.in);
 

@@ -4,6 +4,20 @@ import java.util.Scanner;
 
 public class Exercicio12 {
 
+    /* Faça um programa para calcular uma folha de pagamento, sabendo que
+os descontos são do Imposto de Renda, que depende da salário bruto (conforme tabela abaixo) e 3% para a União e
+que o FGTS corresponde a 11% do salário bruto, mas não é
+deduzido (é a empresa que deposita). Salário Líquido corresponde a
+Salário bruto menos descontos. O programa deve solicitar ao usuário
+a taxa horária e o número de horas trabalhadas no mês.
+desconto IR:
+Salário Bruto até 900 (inclusive) - isento
+Salário Bruto até 1500 (inclusive) - 5% de desconto
+Salário Bruto até 2500 (inclusive) - 10% de desconto
+Salário Bruto acima de 2500 - 20% de desconto Imprima a informação em
+na tela, dispostos de acordo com o exemplo abaixo. Em
+No exemplo, o valor da hora é 5 e o valor da hora é 220.*/
+
     public static void main(String[] args) {
 
         Scanner in = new Scanner(System.in);

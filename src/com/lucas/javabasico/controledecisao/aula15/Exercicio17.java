@@ -4,6 +4,9 @@ import java.util.Scanner;
 
 public class Exercicio17 {
 
+    /* Faça um Programa que peça um número correspondente a
+um determinado ano e depois informa se esse ano é bissexto ou não.*/
+
     public static void main(String[] main){
 
         Scanner input = new Scanner(System.in);

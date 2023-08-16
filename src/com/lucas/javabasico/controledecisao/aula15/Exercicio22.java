@@ -4,6 +4,9 @@ import java.util.Scanner;
 
 public class Exercicio22 {
 
+    /* Escreva um programa que pede um inteiro e determina se é
+ímpar ou par. Dica: use o operador módulo (resto da divisão).*/
+
     public static void main(String[] args){
 
         Scanner input = new Scanner(System.in);

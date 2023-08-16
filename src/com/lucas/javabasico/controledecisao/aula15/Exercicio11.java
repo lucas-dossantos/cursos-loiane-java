@@ -4,6 +4,21 @@ import java.util.Scanner;
 
 public class Exercicio11 {
 
+    /* As Organizações Tabajara decidiram dar um aumento salarial aos seus
+funcionários e contratou você para desenvolver o programa que calculará
+os reajustes.
+。 Faça um programa que receba o salário de um funcionário e ajuste
+de acordo com os seguintes critérios, com base no salário atual:
+salários até R$ 280,00 (incluso): 20% de acréscimo
+salários entre R$ 280,00 e R$ 700,00 15% de acréscimo
+salários entre R$ 700,00 e R$ 1.500,00 10% de acréscimo
+salários a partir de R$ 1.500,00 em diante aumento de 5% Após a
+aumento for efetuado, informar na tela:
+salário antes do reajuste;
+o aumento percentual aplicado;
+o valor do aumento;
+o novo salário, após o aumento.*/
+
     public static void main(String[] args) {
 
         Scanner in = new Scanner(System.in);

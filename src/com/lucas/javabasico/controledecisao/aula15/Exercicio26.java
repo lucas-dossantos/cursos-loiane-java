@@ -4,6 +4,20 @@ import java.util.Scanner;
 
 public class Exercicio26 {
 
+    /*Um posto de gasolina está vendendo combustível com o seguinte desconto
+mesa:
+Álcool:
+O. até 20 litros, 3% de desconto por litro
+B. acima de 20 litros, 5% de desconto por litro
+Gasolina:
+c. até 20 litros, 4% de desconto por litro
+d. acima de 20 litros, 6% de desconto por litro Escreva um algoritmo
+que lê o número de litros vendidos, o tipo de combustível
+(codificado da seguinte forma: A-álcool, G-gasolina), calcula
+e imprime o valor a ser pago para o cliente saber
+que o preço do litro da gasolina é R$ 2,50, o preço do
+o litro de álcool custa R$ 1,90*/
+
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);

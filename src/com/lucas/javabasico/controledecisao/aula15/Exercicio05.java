@@ -5,6 +5,15 @@ import java.util.Scanner;
 
 public class Exercicio05 {
 
+    /* Escreva um programa para ler duas notas parciais de um aluno. O
+programa deve calcular a média alcançada por aluno e apresentar:
+A mensagem "Aprovado", caso a média obtida seja maior ou
+igual a sete;
+○
+A mensagem "Reprovado", se a média for menor que sete;
+A mensagem "Aprovado com distinção", se a média for igual a
+dez.*/
+
     public static void main(String[] args) {
 
 

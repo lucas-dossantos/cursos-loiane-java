@@ -4,6 +4,20 @@ import java.util.Scanner;
 
 public class Exercicio16 {
 
+    /* Escreva um programa que calcule as raízes de uma equação quadrática, em
+a forma ax2 + bx + c. O programa deve pedir os valores de a, b
+e c e fazer consistência, informando o usuário no seguinte
+situações:
+O. Se o usuário informar o valor de A igual a zero, a equação é
+não de segundo grau e o programa não deve pedir o outro
+valores, sendo assim fechados;
+B. Se o delta calculado for negativo, a equação não tem real
+raízes. Informar o usuário e encerrar o programa;
+c. Se o delta calculado for igual a zero, a equação terá apenas
+uma raiz real; reportar ao usuário;
+d. Se o delta for positivo, a equação tem duas raízes reais;
+comunicá-los ao usuário;*/
+
     public static void main(String[] main){
 
         Scanner input = new Scanner(System.in);

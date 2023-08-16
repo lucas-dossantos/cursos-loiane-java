@@ -3,6 +3,9 @@ package com.lucas.javabasico.controledecisao.aula15;
 import java.util.Scanner;
 
 public class Exercicio23 {
+
+    /* Escreva um programa que peça um número e informe se o
+número é inteiro ou decimal. Dica: Use uma função de arredondamento.*/
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);

@@ -4,6 +4,13 @@ import java.util.Scanner;
 
 public class Exercicio24 {
 
+    /* Escreva um programa que leia 2 números e pergunte ao usuário qual
+operação que deseja realizar. O resultado da operação deve
+ser acompanhado por uma frase que diz se o número é:
+par ou ímpar;
+O. positivo ou negativo;
+B. inteiro ou decimal.*/
+
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);

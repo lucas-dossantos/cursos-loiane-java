@@ -4,6 +4,8 @@ import java.util.Scanner;
 
 public class Exercicio03 {
 
+    /* Escreva um programa que verifique se uma letra digitada é "F" ou
+    "M". Conforme a letra escreva: F - Feminino, M - Masculino, Sexo Inválido.*/
     public static void main(String[] args) {
 
         Scanner in = new Scanner(System.in);

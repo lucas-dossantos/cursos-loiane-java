@@ -4,6 +4,19 @@ import java.util.Scanner;
 
 public class Exercicio25 {
 
+    /* Faça um programa que faça 5 perguntas a uma pessoa sobre um crime.
+As perguntas são:
+"Você ligou para a vítima?"
+O. "Você estava na cena do crime?"
+B. "Você mora perto da vítima?"
+c. "Devido à vítima?"
+d. "Você já trabalhou com a vítima?" O programa deve
+em última análise, emitir uma classificação sobre a participação da pessoa no
+crime. Se a pessoa responder positivamente a 2 perguntas, ele
+deve ser classificado como "Suspeito", entre 3 e 4 como "Cúmplice"
+e 5 como "assassino". Caso contrário, ele será classificado como
+"Inocente".*/
+
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);

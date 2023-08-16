@@ -4,6 +4,9 @@ import java.util.Scanner;
 
 public class Exercicio09 {
 
+    /* Escreva um programa que leia três números e os exiba em
+ordem decrescente.*/
+
     public static void main(String[] args) {
 
         Scanner in = new Scanner(System.in);

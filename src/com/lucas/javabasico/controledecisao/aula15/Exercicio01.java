@@ -4,6 +4,8 @@ import java.util.Scanner;
 
 public class Exercicio01 {
 
+    /* Faça um programa qu peça dois números e imprima o maior deles.*/
+
     public static void main(String[] args) {
 
         Scanner in = new Scanner(System.in);

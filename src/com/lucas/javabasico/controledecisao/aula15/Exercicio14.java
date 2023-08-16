@@ -4,6 +4,13 @@ import java.util.Scanner;
 
 public class Exercicio14 {
 
+    /* Escreva um programa que leia as duas notas parciais obtidas por um aluno em
+um curso ao longo de um semestre e calcula sua média.
+
+O algoritmo deve mostrar na tela as notas, a média,
+a nota correspondente e a mensagem "APROVADO" se
+a nota é A, B ou C ou "REPROVADO" se a nota for D ou E.*/
+
     public static void main(String[] main){
 
         Scanner input = new Scanner(System.in);

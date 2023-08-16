@@ -4,6 +4,8 @@ import java.util.Scanner;
 
 public class Exercicio06 {
 
+    /* Escreva um programa que leia três números e exiba o maior deles.*/
+
     public static void main(String[] args) {
 
         Scanner in = new Scanner(System.in);

@@ -4,6 +4,10 @@ import java.util.Scanner;
 
 public class Exercicio13 {
 
+    /* Escreva um programa que leia um número e exiba o dia correspondente
+da semana. (1-domingo, 2-segunda-feira, etc.), se você digitar outro valor, um
+valor inválido deve aparecer.*/
+
     public static void main(String[] args) {
 
         Scanner in = new Scanner(System.in);
