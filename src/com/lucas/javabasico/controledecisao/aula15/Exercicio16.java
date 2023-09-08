@@ -18,6 +18,8 @@ uma raiz real; reportar ao usuário;
 d. Se o delta for positivo, a equação tem duas raízes reais;
 comunicá-los ao usuário;*/
 
+
+
     public static void main(String[] main){
 
         Scanner input = new Scanner(System.in);
@@ -44,8 +46,8 @@ comunicá-los ao usuário;*/
             System.out.println("A raiz dupla é x = " + x);
         } else {
             System.out.println(delta);
-            double x1 = (- b + Math.sqrt(delta) / (2 * a));
-            double x2 = (- b - Math.sqrt(delta) / (2 * a));
+            double x1 = ((- b) + Math.sqrt(delta) / (2 * a));
+            double x2 = ((- b) - Math.sqrt(delta) / (2 * a));
             System.out.println("As raízes são: \nx1 = " + x1 + "\nx2 = " + x2);
         }
     }
