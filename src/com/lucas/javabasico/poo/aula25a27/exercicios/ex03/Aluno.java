@@ -17,4 +17,16 @@ public class Aluno {
         }
         return false;
     }
+
+    @Override
+    public String toString() {
+        return "Aluno{" +
+                "nome='" + nome + '\'' +
+                ", matricula=" + matricula +
+                ", nomeCurso='" + nomeCurso + '\'' +
+                ", disciplina=" + Arrays.toString(disciplina) +
+                ", notas=" + Arrays.toString(notas) +
+                ", media=" + media +
+                '}';
+    }
 }

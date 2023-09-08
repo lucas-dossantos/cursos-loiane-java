@@ -7,29 +7,28 @@ public class ContaCorrente {
     boolean especial;
     double limite;
 
-    void sacar(double saque) {
+    boolean sacar(double saque) {
         if (saque <= saldo) {
             saldo -= saque;
-            System.out.println("Saque realizado com sucesso.");
+            return true;
         } else if (especial) {
             if (saque <= limite + saldo) {
                 saldo = saldo - saque;
                 limite += saldo;
-                System.out.println("Saque realizado com sucesso.");
+                return true;
             } else {
-                System.out.println("Limite e saldo insuficiente para saque.");
+                return false;
             }
         } else {
-            System.out.println("Saldo insuficiente para o saque.");
+            return false;
         }
     }
 
-    void depositar(double deposito) {
-        if (deposito > 0 ) {
-            saldo += deposito;
-            System.out.println("Deposito feito com sucesso.");
+    void depositar(double valorDeposito) {
+        if (valorDeposito > 0 ) {
+            saldo += valorDeposito;
         } else {
-            System.out.println("Deposito inválido.");
+            System.out.println("Valor para deposito inválido. ");
         }
     }
 

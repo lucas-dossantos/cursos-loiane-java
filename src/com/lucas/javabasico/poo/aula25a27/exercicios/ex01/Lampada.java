@@ -5,13 +5,31 @@ public class Lampada {
     String modelo;
     String tipo;
     int potencia;
+    boolean ligada;
 
-    void ligar() {
-        System.out.println("Lampada acesa!");
+
+    boolean ligar() {
+        return ligada = true;
     }
 
-    void desligar() {
-        System.out.println("Lampada apagada!");
+    boolean desligar() {
+        return ligada = false;
     }
 
+    void status() {
+        System.out.println("Status da lâmpada.");
+        if (ligada) {
+            System.out.println("Acesa!");
+        } else {
+            System.out.println("Apagada!");
+        }
+    }
+
+    void mudarEstado() {
+        if (ligada) {
+            desligar();
+        } else {
+            ligar();
+        }
+    }
 }

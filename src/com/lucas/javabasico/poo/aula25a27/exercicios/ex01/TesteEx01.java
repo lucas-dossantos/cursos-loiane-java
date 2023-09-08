@@ -6,8 +6,14 @@ public class TesteEx01 {
 
         Lampada lampada = new Lampada();
 
-        System.out.println();
-        lampada.ligar();
-        lampada.desligar();
+        lampada.status();
+
+        lampada.mudarEstado();
+
+        lampada.status();
+
+        lampada.mudarEstado();
+
+        lampada.status();
     }
 }
