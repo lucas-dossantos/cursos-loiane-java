@@ -19,10 +19,10 @@ public class ContaCorrente {
             } else {
                 return false;
             }
-        } else {
-            return false;
         }
+        return false;
     }
+
 
     void depositar(double valorDeposito) {
         if (valorDeposito > 0 ) {

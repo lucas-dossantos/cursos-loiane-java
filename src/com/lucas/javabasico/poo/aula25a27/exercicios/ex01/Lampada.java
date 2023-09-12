@@ -8,12 +8,12 @@ public class Lampada {
     boolean ligada;
 
 
-    boolean ligar() {
-        return ligada = true;
+    void ligar() {
+        ligada = true;
     }
 
-    boolean desligar() {
-        return ligada = false;
+    void desligar() {
+        ligada = false;
     }
 
     void status() {

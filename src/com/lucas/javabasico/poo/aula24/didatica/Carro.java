@@ -8,5 +8,19 @@ public class Carro {
     double capCombustivel;
     double consumoCombustivel;
 
+    Carro() {
 
+    }
+
+    void wxibirAutonomia() {
+        System.out.println("A autonaomia do carro ´é: " + capCombustivel * consumoCombustivel + " km");
+    }
+
+    double obterAutonomia() {
+        return capCombustivel * consumoCombustivel;
+    }
+
+    double calculaCombustivel(double km) {
+        return km/consumoCombustivel;
+    }
 }
